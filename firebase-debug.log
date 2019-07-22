@@ -1,0 +1,85 @@
+[debug] [2019-07-10T10:46:34.987Z] ----------------------------------------------------------------------
+[debug] [2019-07-10T10:46:34.991Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-07-10T10:46:34.991Z] CLI Version:   7.0.2
+[debug] [2019-07-10T10:46:34.992Z] Platform:      win32
+[debug] [2019-07-10T10:46:34.992Z] Node Version:  v10.16.0
+[debug] [2019-07-10T10:46:34.993Z] Time:          Wed Jul 10 2019 13:46:34 GMT+0300 (Eastern European Summer Time)
+[debug] [2019-07-10T10:46:34.993Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-10T10:46:35.019Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-10T10:46:35.020Z] > authorizing via signed-in user
+[debug] [2019-07-10T10:46:35.020Z] [iam] checking project bookstoreproject-34af3 for permissions ["firebase.projects.get"]
+[debug] [2019-07-10T10:46:35.023Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-10T10:46:35.023Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-10T10:46:35.313Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-10T10:46:35.447Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstoreproject-34af3:testIamPermissions  
+
+[debug] [2019-07-10T10:46:36.418Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-10T10:46:36.630Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at new FunctionsEmulator (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:43:34)
+    at Object.<anonymous> (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:39:71)
+    at Generator.next (<anonymous>)
+    at C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:3:12)
+    at Object.start (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:16:16)
+    at Command.module.exports [as _action] (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:13:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-07-10T10:49:34.259Z] ----------------------------------------------------------------------
+[debug] [2019-07-10T10:49:34.263Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-07-10T10:49:34.264Z] CLI Version:   7.0.2
+[debug] [2019-07-10T10:49:34.264Z] Platform:      win32
+[debug] [2019-07-10T10:49:34.264Z] Node Version:  v10.16.0
+[debug] [2019-07-10T10:49:34.265Z] Time:          Wed Jul 10 2019 13:49:34 GMT+0300 (Eastern European Summer Time)
+[debug] [2019-07-10T10:49:34.265Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-10T10:49:34.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-10T10:49:34.340Z] > authorizing via signed-in user
+[debug] [2019-07-10T10:49:34.340Z] [iam] checking project bookstoreproject-34af3 for permissions ["firebase.projects.get"]
+[debug] [2019-07-10T10:49:34.344Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstoreproject-34af3:testIamPermissions  
+
+[debug] [2019-07-10T10:49:35.342Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-10T10:49:35.457Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at new FunctionsEmulator (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:43:34)
+    at Object.<anonymous> (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:39:71)
+    at Generator.next (<anonymous>)
+    at C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:3:12)
+    at Object.start (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:16:16)
+    at Command.module.exports [as _action] (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:13:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-07-10T11:04:25.772Z] ----------------------------------------------------------------------
+[debug] [2019-07-10T11:04:25.777Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-07-10T11:04:25.778Z] CLI Version:   7.0.2
+[debug] [2019-07-10T11:04:25.778Z] Platform:      win32
+[debug] [2019-07-10T11:04:25.778Z] Node Version:  v10.16.0
+[debug] [2019-07-10T11:04:25.779Z] Time:          Wed Jul 10 2019 14:04:25 GMT+0300 (Eastern European Summer Time)
+[debug] [2019-07-10T11:04:25.779Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-10T11:04:25.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-10T11:04:25.842Z] > authorizing via signed-in user
+[debug] [2019-07-10T11:04:25.842Z] [iam] checking project bookstoreproject-34af3 for permissions ["firebase.projects.get"]
+[debug] [2019-07-10T11:04:25.847Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstoreproject-34af3:testIamPermissions  
+
+[debug] [2019-07-10T11:04:26.821Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-10T11:04:26.930Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at new FunctionsEmulator (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:43:34)
+    at Object.<anonymous> (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:39:71)
+    at Generator.next (<anonymous>)
+    at C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:3:12)
+    at Object.start (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:16:16)
+    at Command.module.exports [as _action] (C:\Users\CC\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:13:10)
+[error] 
+[error] Error: An unexpected error has occurred.
